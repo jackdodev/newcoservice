@@ -24,6 +24,8 @@ public class Project {
 
     private UUID authorId;
 
+    private Project() {}
+
     public Project(String subject, String category, String content) {
         this.subject = subject;
         this.category = category;
